@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial;
+    box-sizing: border-box;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/torshov.jpg);
+    background-size: cover;
+    max-width: 720px;
+    height: 343px;
+    margin: 0px auto;
+
+}
+
+.header-title {
+    font-weight: 800;
+    color: white;
+    background: #1D3557;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-bottom: 0;
+
+
+}
+
+.header-subtitle {
+    color: #fff;
+    background: #457B9D;
+    width: 500px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.main-section {
+    margin-top: 0;
+    background: #F1FAEE;
+    color: #1D3557;
+    max-width: 720px;
+    margin: 0 auto;
+
+
+}
+
+#scetion-title {
+    font-weight: 700;
+    margin: 0;
+    padding: 40px;
+}
+
+#activities {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 35px;
+}
+
+#activity-content {
+    width: 30%;
+}
+
+.section-img {
+    border-radius: 50%;
+
+}
+
+.guid-section {
+    width: 400px;
+    height: 294px;
+    padding: 23px;
+    margin: 50px auto;
+    color: #1D3557;
+    background: #A8DADC;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+#guide-img {
+    border-radius: 5px;
+    width:
+        180px;
+}
